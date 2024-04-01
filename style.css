@@ -1,0 +1,40 @@
+
+html,
+body{
+    height: calc(100% - 12px);
+    width: calc(100% -8px);
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+
+#Black_list{
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    position: fixed;
+    left: 2%;
+    top: 7%;
+}
+#BlackList{
+    height: calc(20%);
+    width: calc(100%);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(98, 109, 98) 28px, rgb(26, 20, 20) 77%, rgb(211, 230, 230));
+
+}
+#AllWorkers{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, rgb(98, 109, 98) 28px, rgb(26, 20, 20) 77%, rgb(211, 230, 230));
+}
